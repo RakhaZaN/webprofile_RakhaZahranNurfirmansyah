@@ -15,22 +15,37 @@
     <title>Rakha Zahran Nurfirmansyah</title>
   </head>
   <body>
-    <header class="container">
+    <header class="transparent">
       <!-- Navbar -->
-      <nav class="navbar">
+      <nav class="navbar container">
         <h1 class="nav-brand">RAZAN</h1>
+        <button
+          type="button"
+          class="nav-toggle"
+          id="menuToggle"
+          aria-controls="#items-collapse"
+        >
+          <img src="./assets/images/menu.svg" alt="Toggle" />
+        </button>
         <div class="nav-items">
-          <a href="#" class="nav-link active">Home</a>
+          <a href="#home" class="nav-link active">Home</a>
           <a href="#about" class="nav-link">About</a>
           <a href="#skills" class="nav-link">Skills</a>
           <a href="#contact" class="nav-link">Contact</a>
         </div>
       </nav>
+      <!-- Collape Nav -->
+      <div class="nav-items-collapse" id="itemsCollapse">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
     </header>
 
     <main>
       <!-- Hero -->
-      <section id="hero">
+      <section id="home">
         <div class="container col-2">
           <!-- Left -->
           <div class="left">
